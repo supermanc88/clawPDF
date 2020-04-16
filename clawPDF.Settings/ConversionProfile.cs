@@ -181,8 +181,8 @@ namespace clawSoft.clawPDF.Core.Settings
             Name = "NewProfile";
             OpenViewer = true;
             OutputFormat = OutputFormat.Pdf;
-            ShowProgress = true;
-            SkipPrintDialog = false;
+            ShowProgress = false;
+            SkipPrintDialog = true;
             TitleTemplate = "<PrintJobName>";
         }
 

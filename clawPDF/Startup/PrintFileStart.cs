@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using clawSoft.clawPDF.Assistants;
+using clawSoft.clawPDF.Helper;
 using NLog;
 
 namespace clawSoft.clawPDF.Startup
@@ -19,6 +20,9 @@ namespace clawSoft.clawPDF.Startup
 
         public bool Run()
         {
+            SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetDirectory = "C:\\Users\\CHM\\Desktop111";
+            SettingsHelper.SaveSettings();
+
             _logger.Info("Launched printjob with PrintFile command.");
 
             if (string.IsNullOrEmpty(PrintFile))
