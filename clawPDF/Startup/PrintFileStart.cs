@@ -20,8 +20,8 @@ namespace clawSoft.clawPDF.Startup
 
         public bool Run()
         {
-            SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetDirectory = "C:\\Users\\CHM\\Desktop111";
-            SettingsHelper.SaveSettings();
+            // SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetDirectory = "C:\\Users\\CHM\\Desktop111";
+            // SettingsHelper.SaveSettings();
 
             _logger.Info("Launched printjob with PrintFile command.");
 

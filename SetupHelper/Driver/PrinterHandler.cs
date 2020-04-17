@@ -35,13 +35,13 @@ namespace clawSoft.clawPDF.SetupHelper.Driver
         #endregion Printer Driver Win32 API Constants
 
         private const string ENVIRONMENT = null;
-        private const string PRINTERNAME = "clawPDF";
-        private const string DRIVERNAME = "clawPDF Virtual Printer";
-        private const string HARDWAREID = "clawPDF_Driver";
-        private const string PORTMONITOR = "CLAWMON";
+        private const string PRINTERNAME = "xinanPDF";
+        private const string DRIVERNAME = "xinanPDF Virtual Printer";
+        private const string HARDWAREID = "xinanPDF_Driver";
+        private const string PORTMONITOR = "XINANMON";
         private const string MONITORDLL = "clawmon.dll";
         private const string MONITORUIDLL = "clawmonui.dll";
-        private const string PORTNAME = "CLAWMON:";
+        private const string PORTNAME = "XINANMON:";
         private const string PRINTPROCESOR = "winprint";
 
         private const string DRIVERMANUFACTURER = "Andrew Hess // clawSoft";

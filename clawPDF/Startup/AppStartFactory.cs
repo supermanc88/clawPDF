@@ -44,6 +44,13 @@ namespace clawSoft.clawPDF.Startup
             {
                 var printFile = FindPrintFile(commandLineParser);
                 var printerName = FindPrinterName(commandLineParser);
+
+                string pPath = System.IO.Path.GetDirectoryName(printFile);
+
+                SettingsHelper.Settings.ConversionProfiles[0].AutoSave.Enabled = true;
+                SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetDirectory = pPath;
+                SettingsHelper.SaveSettings();
+
                 return new PrintFileStart(printFile, printerName);
             }
 
