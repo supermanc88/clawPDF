@@ -50,7 +50,7 @@ namespace clawSoft.clawPDF.Core.Settings
             Language = "";
             LastUsedProfileGuid = "DefaultGuid";
             LoggingLevel = LoggingLevel.Error;
-            PrimaryPrinter = "clawPDF";
+            PrimaryPrinter = "xinanPDF";
             UpdateInterval = UpdateInterval.Weekly;
         }
 

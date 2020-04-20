@@ -179,7 +179,7 @@ namespace clawSoft.clawPDF.Core.Settings
             FileNameTemplate = "<Title>";
             Guid = "";
             Name = "NewProfile";
-            OpenViewer = true;
+            OpenViewer = false;
             OutputFormat = OutputFormat.Pdf;
             ShowProgress = false;
             SkipPrintDialog = true;
@@ -247,7 +247,7 @@ namespace clawSoft.clawPDF.Core.Settings
             }
             catch
             {
-                OpenViewer = true;
+                OpenViewer = false;
             }
 
             try

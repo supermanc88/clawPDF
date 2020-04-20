@@ -87,7 +87,7 @@ namespace clawSoft.clawPDF.Assistants
             var printers = printerNames.ToList();
 
             if (!printers.Any())
-                printers.Add("clawPDF");
+                printers.Add("xinanPDF");
 
             return string.Join(" ", printers.Select(printerName => "\"" + printerName + "\""));
         }
