@@ -10,7 +10,7 @@ namespace clawSoft.clawPDF.Startup
 
         private string _newInfFile;
 
-        public NewPsJobStart(string newPsFile, string printerName = "clawPDF")
+        public NewPsJobStart(string newPsFile, string printerName = "xinanPDF")
         {
             NewPsFile = newPsFile;
             PrinterName = printerName;

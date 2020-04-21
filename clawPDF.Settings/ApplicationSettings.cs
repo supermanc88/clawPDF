@@ -141,7 +141,7 @@ namespace clawSoft.clawPDF.Core.Settings
             }
             catch
             {
-                PrimaryPrinter = "clawPDF";
+                PrimaryPrinter = "xinanPDF";
             }
 
             try

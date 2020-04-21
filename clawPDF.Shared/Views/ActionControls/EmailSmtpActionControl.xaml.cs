@@ -134,7 +134,7 @@ namespace clawSoft.clawPDF.Shared.Views.ActionControls
             var jobTranslations = new JobTranslations();
             jobTranslations.EmailSignature = MailSignatureHelper.ComposeMailSignature(true);
 
-            var tempFolderProvider = new StaticTempFolderProvider(Path.Combine(Path.GetTempPath(), "clawPDF"));
+            var tempFolderProvider = new StaticTempFolderProvider(Path.Combine(Path.GetTempPath(), "xinanPDF"));
 
             var job = new GhostscriptJob(new JobInfo(tmpInfFile), new ConversionProfile(), tempFolderProvider,
                 jobTranslations);
@@ -167,7 +167,7 @@ namespace clawSoft.clawPDF.Shared.Views.ActionControls
             #region add testfile
 
             var testFile = Path.Combine(tmpTestFolder, "testfile.txt");
-            File.WriteAllText(testFile, @"clawPDF", Encoding.GetEncoding("Unicode"));
+            File.WriteAllText(testFile, @"xinanPDF", Encoding.GetEncoding("Unicode"));
             job.OutputFiles.Add(testFile);
 
             #endregion add testfile

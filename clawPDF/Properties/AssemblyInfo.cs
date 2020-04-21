@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("clawPDF")]
-[assembly: AssemblyDescription("clawPDF - Your OpenSource PDF Solution")]
+[assembly: AssemblyTitle("xinanPDF")]
+[assembly: AssemblyDescription("xinanPDF - Your OpenSource PDF Solution")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Andrew Hess // clawSoft")]
+[assembly: AssemblyCompany("Andrew Hess // xinanPDF")]
 [assembly: AssemblyProduct("clawPDF")]
-[assembly: AssemblyCopyright("Copyright © 2019 Andrew Hess // clawSoft")]
+[assembly: AssemblyCopyright("Copyright © 2019 Andrew Hess // xinanPDF")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly:

@@ -84,7 +84,7 @@ namespace clawSoft.clawPDF.Shared.Helper
         /// </summary>
         public void PrintWindowsTestPage()
         {
-            PrintWindowsTestPage("clawPDF");
+            PrintWindowsTestPage("xinanPDF");
         }
 
         /// <summary>
@@ -129,7 +129,7 @@ namespace clawSoft.clawPDF.Shared.Helper
                     clawPDFPrinter = printer;
 
                 if (!isDefaultPrinter)
-                    if (printer.Equals("clawPDF", StringComparison.OrdinalIgnoreCase))
+                    if (printer.Equals("xinanPDF", StringComparison.OrdinalIgnoreCase))
                         clawPDFPrinter = printer;
 
                 if (printer.Equals(defaultPrinter, StringComparison.OrdinalIgnoreCase))

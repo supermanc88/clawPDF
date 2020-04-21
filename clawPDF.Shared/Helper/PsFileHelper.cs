@@ -17,7 +17,7 @@ namespace clawSoft.clawPDF.Shared.Helper
         ///     Create inf file from ps file.
         /// </summary>
         /// <returns>inf file in spool folder</returns>
-        public static string TransformToInfFile(string psFile, string spoolFolder, string printerName = "clawPDF")
+        public static string TransformToInfFile(string psFile, string spoolFolder, string printerName = "xinanPDF")
         {
             if (string.IsNullOrEmpty(psFile) || !File.Exists(psFile))
             {

@@ -41,7 +41,7 @@ namespace clawSoft.clawPDF
 
             try
             {
-                LoggingHelper.InitFileLogger("clawPDF", LoggingLevel.Error);
+                LoggingHelper.InitFileLogger("xinanPDF", LoggingLevel.Error);
 
                 RunApplication(e.Args);
             }
@@ -52,7 +52,7 @@ namespace clawSoft.clawPDF
             finally
             {
                 globalMutex.Release();
-                Logger.Debug("Ending clawPDF");
+                Logger.Debug("Ending xinanPDF");
                 Shutdown();
             }
         }
@@ -100,7 +100,7 @@ namespace clawSoft.clawPDF
                 Logger.Error("Spooler service is not running. Exiting...");
                 var message =
                     "The Windows spooler service is not running. Please start the spooler first.\r\n\r\nProgram exiting now.";
-                const string caption = @"clawPDF";
+                const string caption = @"xinanPDF";
                 MessageBox.Show(message, caption, MessageBoxButton.OK, MessageBoxImage.Error);
                 Environment.Exit(1);
             }
@@ -143,7 +143,7 @@ namespace clawSoft.clawPDF
                 var message = TranslationHelper.Instance.TranslatorInstance.GetTranslation("ConversionWorkflow",
                     "NoSupportedGSFound",
                     "Can't find a supported Ghostscript installation.\r\n\r\nProgram exiting now.");
-                const string caption = @"clawPDF";
+                const string caption = @"xinanPDF";
                 MessageWindow.ShowTopMost(message, caption, MessageWindowButtons.OK, MessageWindowIcon.Error);
                 Environment.Exit(1);
             }

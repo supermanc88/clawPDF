@@ -380,7 +380,7 @@ namespace clawSoft.clawPDF.Workflow
 
         private void RetypeOutputFilename(object sender, QueryFilenameEventArgs e)
         {
-            var caption = "clawPDF";
+            var caption = "xinanPDF";
             var message = e.Job.OutputFilenameTemplate + "\r\n";
             message += _translator.GetTranslation("InteractiveWorkflow", "RetypeFilenameMessage",
                 "The file could not be saved. Maybe the file is currently in use or you do not have the required permissions.\r\nPlease select another filename and try again.");

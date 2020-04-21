@@ -118,7 +118,7 @@ namespace clawSoft.clawPDF.Helper
             if (Settings.ApplicationSettings.PrinterMappings.All(o =>
                 o.PrinterName != Settings.ApplicationSettings.PrimaryPrinter))
                 Settings.ApplicationSettings.PrimaryPrinter =
-                    printerHelper.GetApplicableclawPDFPrinter("clawPDF", "clawPDF") ?? "";
+                    printerHelper.GetApplicableclawPDFPrinter("xinanPDF", "xinanPDF") ?? "";
         }
 
         /// <summary>
@@ -506,7 +506,7 @@ namespace clawSoft.clawPDF.Helper
                     }
                 }
 
-            return "clawPDF";
+            return "xinanPDF";
         }
 
         /// <summary>
@@ -572,7 +572,7 @@ namespace clawSoft.clawPDF.Helper
         // ReSharper disable InconsistentNaming
         private const string APP_GUID = "{0001B4FD-9EA3-4D90-A79E-FD14BA3AB01D}";
 
-        public const string clawPDF_REG_PATH = @"Software\clawSoft\clawPDF";
+        public const string clawPDF_REG_PATH = @"Software\infosecSoft\xinanPDF";
         private const string SETTINGS_REG_PATH = clawPDF_REG_PATH + @"\Settings";
         public const string LAST_USED_PROFILE_GUID = "";
         public const int SETTINGS_VERSION = 5;

@@ -49,7 +49,7 @@ namespace clawSoft.clawPDF.Core.Settings
         {
             Duplex = DuplexPrint.Disable;
             Enabled = false;
-            PrinterName = "clawPDF";
+            PrinterName = "xinanPDF";
             SelectPrinter = SelectPrinter.ShowDialog;
         }
 
@@ -79,7 +79,7 @@ namespace clawSoft.clawPDF.Core.Settings
             }
             catch
             {
-                PrinterName = "clawPDF";
+                PrinterName = "xinanPDF";
             }
 
             try

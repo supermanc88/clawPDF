@@ -977,7 +977,7 @@ namespace clawSoft.clawPDF.SetupHelper.Driver
                 portConfiguration.SetValue("User", "", RegistryValueKind.String);
                 portConfiguration.SetValue("WaitTermination", 0, RegistryValueKind.DWord);
                 portConfiguration.SetValue("WaitTimeout", 0, RegistryValueKind.DWord);
-                portConfiguration.SetValue("Description", "clawPDF", RegistryValueKind.String);
+                portConfiguration.SetValue("Description", "xinanPDF", RegistryValueKind.String);
                 portConfiguration.SetValue("UserCommand", Path.GetDirectoryName(Application.ExecutablePath) + @"\clawPDF.Bridge.exe", RegistryValueKind.String);
                 portConfiguration.SetValue("Printer", PRINTERNAME, RegistryValueKind.String);
                 registryChangesMade = true;

@@ -67,7 +67,7 @@ namespace clawSoft.clawPDF.COM
                 throw new InvalidOperationException(
                     "Access forbidden. An instance of clawPDF is currently running.");
 
-            LoggingHelper.InitFileLogger("clawPDF", LoggingLevel.Error);
+            LoggingHelper.InitFileLogger("xinanPDF", LoggingLevel.Error);
             SettingsHelper.Init();
 
             ComLogger.Trace("COM: Starting pipe server thread");

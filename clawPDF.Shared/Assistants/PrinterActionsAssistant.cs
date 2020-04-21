@@ -11,7 +11,7 @@ namespace clawSoft.clawPDF.Shared.Assistants
 
         public bool AddPrinter(out string newPrinterName)
         {
-            newPrinterName = CreateValidPrinterName("clawPDF");
+            newPrinterName = CreateValidPrinterName("xinanPDF");
             var questionText = _translator.GetTranslation("InputBoxWindow", "EnterPrintername",
                 "Please enter printer name:");
             newPrinterName = RequestPrinternameFromUser(questionText, newPrinterName);
@@ -41,7 +41,7 @@ namespace clawSoft.clawPDF.Shared.Assistants
             {
                 var message = _translator.GetTranslation("ApplicationSettingsWindow", "DontDeleteLastPrinter",
                     "You may not delete the last printer. Uninstall clawPDF if you really want to remove all related printers.");
-                const string caption = @"clawPDF";
+                const string caption = @"xinanPDF";
                 MessageWindow.ShowTopMost(message, caption, MessageWindowButtons.OK, MessageWindowIcon.Error);
                 return false;
             }
