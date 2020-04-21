@@ -137,6 +137,12 @@ namespace clawSoft.clawPDF
         /// <returns>True if the job was processed. If the user decided to manage the print jobs instead, this returns false</returns>
         private void ProcessJob(IJobInfo jobInfo)
         {
+
+            if (SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetFilename != "")
+            {
+                jobInfo.Metadata.PrintJobName = SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetFilename;
+            }
+
             _logger.Trace("Creating job workflow");
             var cw = WorkflowFactory.CreateWorkflow(jobInfo, SettingsHelper.Settings);
 

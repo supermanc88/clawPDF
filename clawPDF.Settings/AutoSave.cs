@@ -31,11 +31,18 @@ namespace clawSoft.clawPDF.Core.Settings
 
         public string TargetDirectory { get; set; }
 
+        /// <summary>
+        /// 用来保存输出的文件名，printfile参数中设置，没有输出文件时，此值为空
+        /// </summary>
+        public string TargetFilename { get; set; }
+
+
         private void Init()
         {
             Enabled = false;
             EnsureUniqueFilenames = true;
             TargetDirectory = "";
+            TargetFilename = "";
         }
 
         public void ReadValues(Data data, string path)
@@ -66,6 +73,15 @@ namespace clawSoft.clawPDF.Core.Settings
             {
                 TargetDirectory = "";
             }
+
+            try
+            {
+                TargetFilename = Data.UnescapeString(data.GetValue(@"" + path + @"TargetFilename"));
+            }
+            catch
+            {
+                TargetFilename = "";
+            }
         }
 
         public void StoreValues(Data data, string path)
@@ -73,6 +89,7 @@ namespace clawSoft.clawPDF.Core.Settings
             data.SetValue(@"" + path + @"Enabled", Enabled.ToString());
             data.SetValue(@"" + path + @"EnsureUniqueFilenames", EnsureUniqueFilenames.ToString());
             data.SetValue(@"" + path + @"TargetDirectory", Data.EscapeString(TargetDirectory));
+            data.SetValue(@"" + path + @"TargetFilename", Data.EscapeString(TargetFilename));
         }
 
         public AutoSave Copy()
@@ -82,6 +99,7 @@ namespace clawSoft.clawPDF.Core.Settings
             copy.Enabled = Enabled;
             copy.EnsureUniqueFilenames = EnsureUniqueFilenames;
             copy.TargetDirectory = TargetDirectory;
+            copy.TargetFilename = TargetFilename;
 
             return copy;
         }
@@ -94,6 +112,7 @@ namespace clawSoft.clawPDF.Core.Settings
             if (!Enabled.Equals(v.Enabled)) return false;
             if (!EnsureUniqueFilenames.Equals(v.EnsureUniqueFilenames)) return false;
             if (!TargetDirectory.Equals(v.TargetDirectory)) return false;
+            if (!TargetFilename.Equals(v.TargetFilename)) return false;
 
             return true;
         }
@@ -105,6 +124,7 @@ namespace clawSoft.clawPDF.Core.Settings
             sb.AppendLine("Enabled=" + Enabled);
             sb.AppendLine("EnsureUniqueFilenames=" + EnsureUniqueFilenames);
             sb.AppendLine("TargetDirectory=" + TargetDirectory);
+            sb.AppendLine("TargetFilename=" + TargetFilename);
 
             return sb.ToString();
         }

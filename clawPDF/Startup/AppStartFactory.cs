@@ -51,6 +51,20 @@ namespace clawSoft.clawPDF.Startup
                 SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetDirectory = pPath;
                 SettingsHelper.SaveSettings();
 
+                // 这里接收outputfile内容
+                if (commandLineParser.HasArgument("OutputFile"))
+                {
+                    var outputFile = FindOutputFile(commandLineParser);
+                    string outputDir = System.IO.Path.GetDirectoryName(outputFile);
+                    string outputFilename = System.IO.Path.GetFileNameWithoutExtension(outputFile);
+                    
+                    SettingsHelper.Settings.ConversionProfiles[0].AutoSave.Enabled = true;
+                    SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetDirectory = outputDir;
+                    SettingsHelper.Settings.ConversionProfiles[0].AutoSave.TargetFilename = outputFilename;
+                    SettingsHelper.SaveSettings();
+                }
+
+
                 return new PrintFileStart(printFile, printerName);
             }
 
@@ -99,6 +113,12 @@ namespace clawSoft.clawPDF.Startup
             // ...nope!? We have a MainWindowStart
             return new MainWindowStart();
         }
+
+        private string FindOutputFile(CommandLineParser commandLineParser)
+        {
+            return commandLineParser.GetArgument("OutputFile");
+        }
+
 
         private string FindPrintFile(CommandLineParser commandLineParser)
         {
