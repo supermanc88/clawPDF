@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace clawPDF.Bridge
+namespace infosecPDF.Bridge
 {
     internal class INIFile
     {

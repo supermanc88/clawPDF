@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Threading;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.Helper.Logging;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper.Logging;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Utilities.Communication;
 using NLog;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     [ComVisible(true)]
     [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]

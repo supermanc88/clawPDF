@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using NLog;
@@ -13,7 +13,7 @@ using Org.BouncyCastle.Pkcs;
 using Org.BouncyCastle.Security;
 using X509Certificate = Org.BouncyCastle.X509.X509Certificate;
 
-namespace clawSoft.clawPDF.PDFProcessing
+namespace infosecSoft.infosecPDF.PDFProcessing
 {
     internal class Signer
     {

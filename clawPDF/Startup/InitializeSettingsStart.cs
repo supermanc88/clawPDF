@@ -1,6 +1,6 @@
-﻿using clawSoft.clawPDF.Helper;
+﻿using infosecSoft.infosecPDF.Helper;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class InitializeSettingsStart : IAppStart
     {

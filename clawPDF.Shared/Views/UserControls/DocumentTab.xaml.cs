@@ -3,16 +3,17 @@ using System.Drawing;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.Converter;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels.UserControls;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Converter;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels.UserControls;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 using ComboBox = System.Windows.Controls.ComboBox;
 using TextBox = System.Windows.Controls.TextBox;
 using UserControl = System.Windows.Controls.UserControl;
 
-namespace clawSoft.clawPDF.Shared.Views.UserControls
+namespace infosecSoft.infosecPDF.Shared.Views.UserControls
 {
     public partial class DocumentTab : UserControl
     {

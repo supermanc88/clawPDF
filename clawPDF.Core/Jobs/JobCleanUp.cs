@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities;
 using NLog;
 using SystemInterface.IO;
 using SystemWrapper.IO;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     public class JobCleanUp
     {

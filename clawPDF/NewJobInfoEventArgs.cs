@@ -1,7 +1,7 @@
 using System;
-using clawSoft.clawPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF
+namespace infosecSoft.infosecPDF
 {
     /// <summary>
     ///     EventArgs class that contains the new JobInfo

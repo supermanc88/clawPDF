@@ -6,16 +6,16 @@ using System.IO;
 using System.Linq;
 using System.Resources;
 using System.Text;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.IO;
 using NLog;
 using SystemInterface.IO;
 using SystemWrapper.IO;
+using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF.Core.Ghostscript.OutputDevices
+namespace infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices
 {
     /// <summary>
     ///     The abstract class OutputDevice holds methods and properties that handle the Ghostscript parameters. The device

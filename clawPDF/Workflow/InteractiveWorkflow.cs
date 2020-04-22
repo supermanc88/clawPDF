@@ -1,21 +1,21 @@
 ﻿using System.IO;
 using System.Windows.Forms;
-using clawSoft.clawPDF.Core;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Exceptions;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.Views;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.IO;
-using clawSoft.clawPDF.ViewModels;
-using clawSoft.clawPDF.Views;
+using infosecSoft.infosecPDF.Core;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Exceptions;
+using infosecSoft.infosecPDF.ViewModels;
+using infosecSoft.infosecPDF.Views;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Workflow
+namespace infosecSoft.infosecPDF.Workflow
 {
     /// <summary>
     ///     The interactive workflow implements the workflow steps where user interaction is required.

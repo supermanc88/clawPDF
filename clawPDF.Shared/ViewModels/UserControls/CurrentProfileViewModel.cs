@@ -1,7 +1,8 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.ViewModels;
 
-namespace clawSoft.clawPDF.Shared.ViewModels.UserControls
+namespace infosecSoft.infosecPDF.Shared.ViewModels.UserControls
 {
     public class CurrentProfileViewModel : ViewModelBase
     {

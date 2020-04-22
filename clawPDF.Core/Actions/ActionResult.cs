@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     public class ActionResult : List<int>
     {

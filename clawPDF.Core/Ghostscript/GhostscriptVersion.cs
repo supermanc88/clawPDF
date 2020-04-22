@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Core.Ghostscript
+﻿namespace infosecSoft.infosecPDF.Core.Ghostscript
 {
     /// <summary>
     ///     Specifies information on Ghostscript installations

@@ -1,12 +1,12 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using clawSoft.clawPDF.Shared.Assistants;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.ViewModels.UserControls;
-using clawSoft.clawPDF.ViewModels.Wrapper;
+using infosecSoft.infosecPDF.Shared.Assistants;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.ViewModels.UserControls;
+using infosecSoft.infosecPDF.ViewModels.Wrapper;
 
-namespace clawSoft.clawPDF.Views.UserControls
+namespace infosecSoft.infosecPDF.Views.UserControls
 {
     internal partial class PrinterTab
     {

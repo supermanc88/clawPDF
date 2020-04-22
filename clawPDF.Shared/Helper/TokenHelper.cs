@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 using SystemWrapper;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     public static class TokenHelper
     {

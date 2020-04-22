@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     /// <summary>
     ///     A Job is the item to do a conversion from a source format to the final file formats like PDF.

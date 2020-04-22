@@ -1,6 +1,6 @@
 ﻿using System.Drawing.Printing;
 
-namespace clawSoft.clawPDF.Utilities
+namespace infosecSoft.infosecPDF.Utilities
 {
     public class PrinterWrapper
     {

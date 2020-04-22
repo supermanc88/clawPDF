@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.Helper.Logging;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper.Logging;
 using Microsoft.Win32;
 using NLog;
 using pdfforge.DataStorage;
 using pdfforge.DataStorage.Storage;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     /// <summary>
     ///     SettingsHelper provides static methods and properties to handle the settings.

@@ -2,12 +2,12 @@
 using System.ComponentModel;
 using System.IO;
 using System.Text.RegularExpressions;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.ftplib.FtpLib;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.ftplib.FtpLib;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     public class FtpAction : IAction, ICheckable
     {

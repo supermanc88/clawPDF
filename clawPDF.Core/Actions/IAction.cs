@@ -1,6 +1,6 @@
-﻿using clawSoft.clawPDF.Core.Jobs;
+﻿using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     /// <summary>
     ///     The interface Action defines actions that can process a set of files (i.e. encrypt, send as mail)

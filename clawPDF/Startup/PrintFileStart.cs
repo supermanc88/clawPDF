@@ -1,9 +1,9 @@
 ﻿using System.IO;
-using clawSoft.clawPDF.Assistants;
-using clawSoft.clawPDF.Helper;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Assistants;
 using NLog;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class PrintFileStart : IAppStart
     {

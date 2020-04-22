@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.Process;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.Process;
 using NLog;
 
-namespace clawSoft.clawPDF.PrintFile
+namespace infosecSoft.infosecPDF.PrintFile
 {
     internal enum PrintType
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
-using clawSoft.clawPDF.SetupHelper.Helper;
+using infosecSoft.infosecPDF.SetupHelper.Helper;
 
-namespace clawSoft.clawPDF.SetupHelper.Driver
+namespace infosecSoft.infosecPDF.SetupHelper.Driver
 {
     internal class Actions
     {

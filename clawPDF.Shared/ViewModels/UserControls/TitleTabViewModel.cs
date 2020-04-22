@@ -5,16 +5,17 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Data;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Helper;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Shared.ViewModels.UserControls
+namespace infosecSoft.infosecPDF.Shared.ViewModels.UserControls
 {
     public class TitleTabViewModel : ViewModelBase
     {
-        private Wrapper.SynchronizedCollection<TitleReplacement> _titleReplacements;
+        private infosecSoft.infosecPDF.Shared.ViewModels.Wrapper.SynchronizedCollection<TitleReplacement> _titleReplacements;
 
         public TitleTabViewModel()
         {
@@ -59,7 +60,7 @@ namespace clawSoft.clawPDF.Shared.ViewModels.UserControls
             {
                 var replacements = titleReplacements;
 
-                _titleReplacements = new Wrapper.SynchronizedCollection<TitleReplacement>(replacements);
+                _titleReplacements = new infosecSoft.infosecPDF.Shared.ViewModels.Wrapper.SynchronizedCollection<TitleReplacement>(replacements);
                 _titleReplacements.ObservableCollection.CollectionChanged += TitleReplacementsOnCollectionChanged;
                 TitleReplacementView = CollectionViewSource.GetDefaultView(_titleReplacements.ObservableCollection);
                 TitleReplacementView.SortDescriptions.Add(new SortDescription(nameof(TitleReplacement.ReplacementType),

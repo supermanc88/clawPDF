@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Utilities.Communication;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     [ComVisible(true)]
     [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]

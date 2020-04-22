@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Properties
+﻿namespace infosecSoft.infosecPDF.Properties
 {
     // Diese Klasse ermöglicht die Behandlung bestimmter Ereignisse der Einstellungsklasse:
     //  Das SettingChanging-Ereignis wird ausgelöst, bevor der Wert einer Einstellung geändert wird.

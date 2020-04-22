@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 
-namespace clawSoft.clawPDF.Shared.Views.ActionControls
+namespace infosecSoft.infosecPDF.Shared.Views.ActionControls
 {
     public partial class FtpActionControl : ActionControl
     {

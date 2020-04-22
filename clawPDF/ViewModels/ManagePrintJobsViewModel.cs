@@ -4,10 +4,10 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Data;
 using System.Windows.Threading;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Shared.ViewModels;
 
-namespace clawSoft.clawPDF.ViewModels
+namespace infosecSoft.infosecPDF.ViewModels
 {
     internal class ManagePrintJobsViewModel : ViewModelBase
     {

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Utilities.Threading;
-using clawSoft.clawPDF.Workflow;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Utilities.Threading;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Workflow;
 using NLog;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     [ComVisible(true)]
     public delegate void JobFinishedDelegate();

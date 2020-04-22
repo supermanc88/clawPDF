@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Startup
+﻿namespace infosecSoft.infosecPDF.Startup
 {
     internal interface IAppStart
     {

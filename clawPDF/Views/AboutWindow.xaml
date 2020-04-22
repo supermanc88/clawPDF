@@ -1,4 +1,4 @@
-﻿<Window x:Class="clawSoft.clawPDF.Views.AboutWindow"
+﻿<Window x:Class="infosecSoft.infosecPDF.Views.AboutWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="About infosecPDF" Height="352.614" Width="650"

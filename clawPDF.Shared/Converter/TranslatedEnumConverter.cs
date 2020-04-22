@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Shared.Converter
+namespace infosecSoft.infosecPDF.Shared.Converter
 {
     internal class TranslatedEnumConverter : IValueConverter
     {

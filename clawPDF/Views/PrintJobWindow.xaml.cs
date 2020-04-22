@@ -1,11 +1,11 @@
 ﻿using System.Windows;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.ViewModels;
-using clawSoft.clawPDF.WindowsApi;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.ViewModels;
+using infosecSoft.infosecPDF.WindowsApi;
 
-namespace clawSoft.clawPDF.Views
+namespace infosecSoft.infosecPDF.Views
 {
     internal partial class PrintJobWindow
     {

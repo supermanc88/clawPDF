@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Utilities;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     /// <summary>
     ///     DefaultViewerAction opens the output files in the default viewer

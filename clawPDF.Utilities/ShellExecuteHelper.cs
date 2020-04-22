@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 
-namespace clawSoft.clawPDF.Utilities
+namespace infosecSoft.infosecPDF.Utilities
 {
     public enum ShellExecuteResult
     {

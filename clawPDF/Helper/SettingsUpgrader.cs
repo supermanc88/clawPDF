@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using clawSoft.clawPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
 using pdfforge.DataStorage;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     /// <summary>
     ///     The SettingsUpgrader class performs updates to the clawPDF settings.

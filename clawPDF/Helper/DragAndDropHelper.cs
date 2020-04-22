@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
-using clawSoft.clawPDF.Assistants;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 using NLog;
 using SystemInterface.IO;
 using SystemWrapper.IO;
+using infosecSoft.infosecPDF.Assistants;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     public static class DragAndDropHelper
     {

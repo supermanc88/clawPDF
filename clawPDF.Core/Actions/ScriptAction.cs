@@ -4,13 +4,13 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     /// <summary>
     ///     Executes a script or executable after the conversion process.

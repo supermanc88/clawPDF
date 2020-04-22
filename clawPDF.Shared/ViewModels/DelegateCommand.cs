@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Input;
-using clawSoft.clawPDF.Shared.Properties;
+using infosecSoft.infosecPDF.Shared.Properties;
 
-namespace clawSoft.clawPDF.Shared.ViewModels
+namespace infosecSoft.infosecPDF.Shared.ViewModels
 {
     /// <summary>
     ///     DelegateCommand implements the <see cref="System.Windows.Input.ICommand" /> interface and uses delegates for the

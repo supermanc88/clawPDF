@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-using clawSoft.clawPDF.Utilities.Threading;
+using infosecSoft.infosecPDF.Utilities.Threading;
 using NLog;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     public class ThreadPool
     {

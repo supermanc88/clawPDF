@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
 using System.Text;
-using clawSoft.clawPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Actions;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     public static class ErrorCodeInterpreter
     {

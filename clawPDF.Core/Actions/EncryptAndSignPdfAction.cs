@@ -2,7 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     /// <summary>
     ///     Implements the action to sign PDF-files

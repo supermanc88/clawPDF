@@ -3,7 +3,7 @@ using NLog.Config;
 using NLog.Layouts;
 using NLog.Targets;
 
-namespace clawSoft.clawPDF.Shared.Helper.Logging
+namespace infosecSoft.infosecPDF.Shared.Helper.Logging
 {
     internal class ConsoleLogger : ILogger
     {

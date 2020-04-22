@@ -2,11 +2,11 @@
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
-using clawSoft.clawPDF.SetupHelper.Driver;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.SetupHelper.Driver;
+using infosecSoft.infosecPDF.Utilities;
 using Microsoft.Win32;
 
-namespace clawSoft.clawPDF.SetupHelper
+namespace infosecSoft.infosecPDF.SetupHelper
 {
     internal class Program
     {

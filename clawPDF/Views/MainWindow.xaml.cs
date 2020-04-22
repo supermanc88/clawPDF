@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Windows;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.Helper.Logging;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper.Logging;
 
-namespace clawSoft.clawPDF.Views
+namespace infosecSoft.infosecPDF.Views
 {
     internal partial class MainWindow
     {

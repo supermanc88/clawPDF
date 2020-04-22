@@ -5,12 +5,12 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Data;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.ViewModels.Wrapper;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.ViewModels.Wrapper;
 
-namespace clawSoft.clawPDF.ViewModels.UserControls
+namespace infosecSoft.infosecPDF.ViewModels.UserControls
 {
     internal class PrinterTabViewModel : ApplicationSettingsViewModel
     {
@@ -25,7 +25,7 @@ namespace clawSoft.clawPDF.ViewModels.UserControls
 
         private IEnumerable<ConversionProfile> _conversionProfiles;
         private ConversionProfile _defaultProfile;
-        private Shared.ViewModels.Wrapper.SynchronizedCollection<PrinterMappingWrapper> _printerMappings;
+        private infosecSoft.infosecPDF.Shared.ViewModels.Wrapper.SynchronizedCollection<PrinterMappingWrapper> _printerMappings;
         private ICollectionView _printerMappingView;
 
         public PrinterTabViewModel(ApplicationSettings applicationSettings, IEnumerable<ConversionProfile> profiles,
@@ -198,7 +198,7 @@ namespace clawSoft.clawPDF.ViewModels.UserControls
                 }
 
                 _printerMappings =
-                    new Shared.ViewModels.Wrapper.SynchronizedCollection<PrinterMappingWrapper>(mappingWrappers);
+                    new infosecSoft.infosecPDF.Shared.ViewModels.Wrapper.SynchronizedCollection<PrinterMappingWrapper>(mappingWrappers);
 
                 _printerMappings.ObservableCollection.CollectionChanged += PrinterMappings_OnCollectionChanged;
                 _printerMappingView = CollectionViewSource.GetDefaultView(_printerMappings.ObservableCollection);

@@ -1,10 +1,10 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Ghostscript;
-using clawSoft.clawPDF.Core.Ghostscript.OutputDevices;
-using clawSoft.clawPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Ghostscript;
+using infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices;
+using infosecSoft.infosecPDF.Core.Jobs;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     /// <summary>
     ///     Implements the action to print the input files

@@ -11,7 +11,7 @@ using pdfforge.DataStorage;
 // ! Do not edit it outside the sections for custom code.
 // ! These changes will be deleted during the next generation run
 
-namespace clawSoft.clawPDF.Core.Settings
+namespace infosecSoft.infosecPDF.Core.Settings
 {
     /// <summary>
     ///     Sends a mail without user interaction through SMTP

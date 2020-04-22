@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using clawSoft.clawPDF.PrintFile;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.PrintFile;
+using infosecSoft.infosecPDF.Shared.Helper;
 using NLog;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     /// <summary>
     ///     The PrintFileHelperBase class provides reusable functionality for printing files

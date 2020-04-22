@@ -1,6 +1,6 @@
-﻿using clawSoft.clawPDF.Utilities;
+﻿using infosecSoft.infosecPDF.Utilities;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     /// <summary>
     ///     The Metadata class holds information about the printed document

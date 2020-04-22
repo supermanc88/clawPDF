@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Windows.Controls;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.Properties;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Properties;
 
-namespace clawSoft.clawPDF.Shared.Views.ActionControls
+namespace infosecSoft.infosecPDF.Shared.Views.ActionControls
 {
     public class ActionControl : UserControl, INotifyPropertyChanged
     {

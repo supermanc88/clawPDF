@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using clawSoft.clawPDF.PrintFile;
+using infosecSoft.infosecPDF.PrintFile;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     /// <summary>
     ///     The PrintFileHelper implements the  PrintFileHelperBase functionalities without user interaction

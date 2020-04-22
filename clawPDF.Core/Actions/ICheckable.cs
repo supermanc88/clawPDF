@@ -1,6 +1,6 @@
-﻿using clawSoft.clawPDF.Core.Settings;
+﻿using infosecSoft.infosecPDF.Core.Settings;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     internal interface ICheckable
     {

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.PrintFile;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.Views;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.PrintFile;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
 
-namespace clawSoft.clawPDF.Assistants
+namespace infosecSoft.infosecPDF.Assistants
 {
     /// <summary>
     ///     The PrintFileAssistant extends the PrintFileHelperBase with user interaction (ask to change default printer, show

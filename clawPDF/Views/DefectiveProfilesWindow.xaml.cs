@@ -5,10 +5,10 @@ using System.Text;
 using System.Windows;
 using System.Windows.Data;
 using System.Windows.Input;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Shared.Helper;
 
-namespace clawSoft.clawPDF.Views
+namespace infosecSoft.infosecPDF.Views
 {
     internal partial class DefectiveProfilesWindow : Window
     {

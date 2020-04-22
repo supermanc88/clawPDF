@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Core.Settings
+﻿namespace infosecSoft.infosecPDF.Core.Settings
 {
     public class JobPasswords
     {

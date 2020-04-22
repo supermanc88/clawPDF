@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Interop;
 
-namespace clawSoft.clawPDF.WindowsApi
+namespace infosecSoft.infosecPDF.WindowsApi
 {
     /// <summary>
     ///     FlashWindow class from Chris Pietschmann

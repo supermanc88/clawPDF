@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.ViewModels;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.ViewModels;
 
-namespace clawSoft.clawPDF.Views
+namespace infosecSoft.infosecPDF.Views
 {
     internal partial class ApplicationSettingsWindow : Window
     {

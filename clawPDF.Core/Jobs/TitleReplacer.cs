@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     /// <summary>
     ///     Replaces occurances within a string in a given order. This is used to remove unwanted parts from titles in the

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace clawPDF.Bridge
+namespace infosecPDF.Bridge
 {
     public static class ProcessExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace clawSoft.clawPDF.PDFProcessing
+namespace infosecSoft.infosecPDF.PDFProcessing
 {
     public class ProcessingException : Exception
     {

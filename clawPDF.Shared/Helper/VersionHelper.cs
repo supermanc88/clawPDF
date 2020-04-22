@@ -1,7 +1,7 @@
 ﻿using System;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     public interface IVersionHelper
     {

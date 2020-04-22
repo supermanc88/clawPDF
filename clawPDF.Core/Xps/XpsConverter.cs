@@ -1,7 +1,7 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF.Core.Xps
+namespace infosecSoft.infosecPDF.Core.Xps
 {
     public class XpsConverter
     {

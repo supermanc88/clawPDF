@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Threading;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Exceptions;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities.Threading;
-using clawSoft.clawPDF.Views;
-using clawSoft.clawPDF.Workflow;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Utilities.Threading;
+using infosecSoft.infosecPDF.Exceptions;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Views;
+using infosecSoft.infosecPDF.Workflow;
 using NLog;
 
-namespace clawSoft.clawPDF
+namespace infosecSoft.infosecPDF
 {
     /// <summary>
     ///     The JobRunner class manages the thread that processes the print jobs. It listens for new jobs in the
-    ///     <see cref="clawSoft.clawPDF.JobInfoQueue" /> and creates the processing thread if required.
+    ///     <see cref="JobInfoQueue" /> and creates the processing thread if required.
     /// </summary>
     internal class JobRunner
     {

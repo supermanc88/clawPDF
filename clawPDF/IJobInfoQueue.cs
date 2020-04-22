@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Utilities.Communication;
 
-namespace clawSoft.clawPDF
+namespace infosecSoft.infosecPDF
 {
     public interface IJobInfoQueue
     {

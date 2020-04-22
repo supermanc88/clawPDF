@@ -1,8 +1,8 @@
 ﻿using System.Windows.Controls;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels.UserControls;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels.UserControls;
 
-namespace clawSoft.clawPDF.Shared.Views.UserControls
+namespace infosecSoft.infosecPDF.Shared.Views.UserControls
 {
     public partial class ActionsTab : UserControl
     {

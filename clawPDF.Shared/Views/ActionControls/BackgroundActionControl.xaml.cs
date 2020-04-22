@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.Helper;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Shared.Views.ActionControls
+namespace infosecSoft.infosecPDF.Shared.Views.ActionControls
 {
     public partial class BackgroundActionControl : ActionControl
     {

@@ -4,7 +4,7 @@ using System.IO;
 using Microsoft.Win32;
 using TrueTypeFontInfo;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     internal static class FontHelper
     {

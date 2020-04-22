@@ -1,9 +1,9 @@
 ﻿using System.Security;
-using clawSoft.clawPDF.Utilities.Registry;
+using infosecSoft.infosecPDF.Utilities.Registry;
 using SystemInterface.Microsoft.Win32;
 using SystemWrapper.Microsoft.Win32;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     /// <summary>
     ///     It is good practice to store Registry settings under HKEY_CURRENT_USER\Software\CompanyName\ProductName

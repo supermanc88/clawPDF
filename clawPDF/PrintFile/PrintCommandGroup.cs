@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using clawSoft.clawPDF.Utilities.Process;
+using infosecSoft.infosecPDF.Utilities.Process;
 
-namespace clawSoft.clawPDF.PrintFile
+namespace infosecSoft.infosecPDF.PrintFile
 {
     /// <summary>
     ///     The PrintCommandGroup provides a way to call multiple PrintCommands at the same time.

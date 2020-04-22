@@ -1,18 +1,18 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.Views;
-using clawSoft.clawPDF.Shared.Views.ActionControls;
-using clawSoft.clawPDF.Utilities.Tokens;
-using clawSoft.clawPDF.ViewModels;
-using clawSoft.clawPDF.Views.ActionControls;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Shared.Views.ActionControls;
+using infosecSoft.infosecPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.ViewModels;
+using infosecSoft.infosecPDF.Views.ActionControls;
 
-namespace clawSoft.clawPDF.Views
+namespace infosecSoft.infosecPDF.Views
 {
     internal partial class ProfileSettingsWindow
     {

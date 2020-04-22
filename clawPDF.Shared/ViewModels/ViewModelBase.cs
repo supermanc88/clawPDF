@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace clawSoft.clawPDF.Shared.ViewModels
+namespace infosecSoft.infosecPDF.Shared.ViewModels
 {
     public class ViewModelBase : INotifyPropertyChanged
     {

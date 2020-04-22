@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using clawSoft.clawPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings;
 using iTextSharp.text.pdf;
 using NLog;
 
-namespace clawSoft.clawPDF.PDFProcessing
+namespace infosecSoft.infosecPDF.PDFProcessing
 {
     public static class StamperCreator
     {

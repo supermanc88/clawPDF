@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Ghostscript.OutputDevices;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.PDFProcessing;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.IO;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.PDFProcessing;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 using NLog;
 using SystemInterface.IO;
 using SystemWrapper.IO;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     /// <summary>
     ///     AbstractJob implements a few methods of the Job interface that can be shared among the Job types

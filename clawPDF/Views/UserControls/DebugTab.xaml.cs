@@ -3,17 +3,17 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Windows;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.Helper.Logging;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.Views;
-using clawSoft.clawPDF.ViewModels.UserControls;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper.Logging;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.ViewModels.UserControls;
 using Microsoft.Win32;
 using pdfforge.DataStorage.Storage;
 
-namespace clawSoft.clawPDF.Views.UserControls
+namespace infosecSoft.infosecPDF.Views.UserControls
 {
     internal partial class DebugTab
     {

@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 using System.Windows.Forms;
-using clawSoft.clawPDF.SetupHelper.Helper;
+using infosecSoft.infosecPDF.SetupHelper.Helper;
 using Microsoft.Win32;
 
-namespace clawSoft.clawPDF.SetupHelper.Driver
+namespace infosecSoft.infosecPDF.SetupHelper.Driver
 {
     public class clawPDFInstaller
     {

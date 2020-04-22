@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace clawSoft.clawPDF.SetupHelper.Helper
+namespace infosecSoft.infosecPDF.SetupHelper.Helper
 {
     internal class Spooler
     {

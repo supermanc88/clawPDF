@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace clawSoft.clawPDF.Core.Ghostscript.OutputDevices
+namespace infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices
 {
     public class DeviceException : Exception
     {

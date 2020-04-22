@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using NLog;
 
-namespace clawSoft.clawPDF.Mail
+namespace infosecSoft.infosecPDF.Mail
 {
     public class OutlookClient : IEmailClient
     {

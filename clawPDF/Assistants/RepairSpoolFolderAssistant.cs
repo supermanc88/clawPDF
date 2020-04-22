@@ -1,12 +1,12 @@
 ﻿using System;
 using System.IO;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.Views;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Utilities;
 using NLog;
 
-namespace clawSoft.clawPDF.Assistants
+namespace infosecSoft.infosecPDF.Assistants
 {
     internal class RepairSpoolFolderAssistant
     {

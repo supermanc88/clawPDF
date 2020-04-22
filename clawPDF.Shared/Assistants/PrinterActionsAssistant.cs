@@ -1,9 +1,9 @@
-﻿using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.Views;
+﻿using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Views;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Shared.Assistants
+namespace infosecSoft.infosecPDF.Shared.Assistants
 {
     public class PrinterActionsAssistant
     {

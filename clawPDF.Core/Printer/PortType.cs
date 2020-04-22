@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Core.Printer
+﻿namespace infosecSoft.infosecPDF.Core.Printer
 {
     public enum PortType
     {

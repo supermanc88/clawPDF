@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace clawSoft.clawPDF.Utilities.Threading
+namespace infosecSoft.infosecPDF.Utilities.Threading
 {
     /// <summary>
     ///     SynchronizedThread wraps a Thread object and adds some functionality to manage multiple threads. It allows to

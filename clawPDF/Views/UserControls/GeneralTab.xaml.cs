@@ -2,13 +2,13 @@
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Navigation;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.ViewModels.UserControls;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.ViewModels.UserControls;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Views.UserControls
+namespace infosecSoft.infosecPDF.Views.UserControls
 {
     internal partial class GeneralTab
     {

@@ -1,15 +1,15 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Data;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Helper;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
-using clawSoft.clawPDF.Shared.ViewModels.Wrapper;
-using clawSoft.clawPDF.Shared.Views;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Helper;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.ViewModels.Wrapper;
+using infosecSoft.infosecPDF.Shared.Views;
 
-namespace clawSoft.clawPDF.ViewModels
+namespace infosecSoft.infosecPDF.ViewModels
 {
     internal class ProfileSettingsViewModel : ViewModelBase
     {

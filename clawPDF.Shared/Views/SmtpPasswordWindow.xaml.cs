@@ -1,10 +1,10 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
 
-namespace clawSoft.clawPDF.Shared.Views
+namespace infosecSoft.infosecPDF.Shared.Views
 {
     public partial class SmtpPasswordWindow : Window
     {

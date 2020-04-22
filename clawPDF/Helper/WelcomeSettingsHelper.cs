@@ -1,9 +1,9 @@
 ﻿using System;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 using SystemInterface.Microsoft.Win32;
 using SystemWrapper.Microsoft.Win32;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     internal class WelcomeSettingsHelper
     {

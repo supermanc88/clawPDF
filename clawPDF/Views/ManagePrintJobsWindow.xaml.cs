@@ -2,11 +2,11 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.ViewModels;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.ViewModels;
 
-namespace clawSoft.clawPDF.Views
+namespace infosecSoft.infosecPDF.Views
 {
     internal partial class ManagePrintJobsWindow : Window
     {

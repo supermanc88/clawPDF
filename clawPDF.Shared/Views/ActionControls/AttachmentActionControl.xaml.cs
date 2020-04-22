@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 
-namespace clawSoft.clawPDF.Shared.Views.ActionControls
+namespace infosecSoft.infosecPDF.Shared.Views.ActionControls
 {
     public partial class AttachmentActionControl : ActionControl
     {

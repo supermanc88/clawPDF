@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
-using clawSoft.clawPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     [ComVisible(true)]
     [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]

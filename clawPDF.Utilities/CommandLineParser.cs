@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace clawSoft.clawPDF.Utilities
+namespace infosecSoft.infosecPDF.Utilities
 {
     public class CommandLineParser
     {

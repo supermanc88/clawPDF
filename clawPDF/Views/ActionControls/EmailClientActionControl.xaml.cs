@@ -1,15 +1,15 @@
 ﻿using System;
 using System.IO;
 using System.Windows;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Mail;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels.UserControls;
-using clawSoft.clawPDF.Shared.Views;
-using clawSoft.clawPDF.Shared.Views.ActionControls;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Mail;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels.UserControls;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Shared.Views.ActionControls;
 using NLog;
 
-namespace clawSoft.clawPDF.Views.ActionControls
+namespace infosecSoft.infosecPDF.Views.ActionControls
 {
     internal partial class EmailClientActionControl : ActionControl
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace clawSoft.clawPDF.ftplib.FtpLib
+namespace infosecSoft.infosecPDF.ftplib.FtpLib
 {
     public class FtpException : Exception
     {

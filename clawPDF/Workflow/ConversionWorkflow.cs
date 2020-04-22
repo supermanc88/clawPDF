@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Threading;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Helper;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Exceptions;
-using clawSoft.clawPDF.PDFProcessing;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.Threading;
-using clawSoft.clawPDF.Views;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Helper;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.PDFProcessing;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.Threading;
+using infosecSoft.infosecPDF.Exceptions;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Views;
 using NLog;
 
-namespace clawSoft.clawPDF.Workflow
+namespace infosecSoft.infosecPDF.Workflow
 {
     /// <summary>
     ///     Defines the different stats the workflow can be in

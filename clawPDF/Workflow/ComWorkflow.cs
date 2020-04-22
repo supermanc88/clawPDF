@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.Helper;
 
-namespace clawSoft.clawPDF.Workflow
+namespace infosecSoft.infosecPDF.Workflow
 {
     internal class ComWorkflow : ConversionWorkflow
     {

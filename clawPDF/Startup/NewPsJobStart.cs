@@ -1,8 +1,8 @@
 ﻿using System.Runtime.InteropServices;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 using NLog;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class NewPsJobStart : MaybePipedStart
     {

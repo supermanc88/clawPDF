@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Utilities.IO;
 using NLog;
 using SystemInterface.IO;
 using SystemWrapper.IO;
 
-namespace clawSoft.clawPDF.Core.Xps.OutputFileMover
+namespace infosecSoft.infosecPDF.Core.Xps.OutputFileMover
 {
     public class SingleFileMover
     {

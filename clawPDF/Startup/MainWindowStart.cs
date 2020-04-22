@@ -1,7 +1,7 @@
-﻿using clawSoft.clawPDF.Threading;
+﻿using infosecSoft.infosecPDF.Threading;
 using NLog;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class MainWindowStart : MaybePipedStart
     {

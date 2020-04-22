@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 
-namespace clawSoft.clawPDF.Shared.Converter
+namespace infosecSoft.infosecPDF.Shared.Converter
 {
     [ValueConversion(typeof(string), typeof(string))]
     public class TokenReplacerConverterForFilenames : IValueConverter

@@ -1,8 +1,8 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Shared.ViewModels;
 
-namespace clawSoft.clawPDF.ViewModels
+namespace infosecSoft.infosecPDF.ViewModels
 {
     internal class ApplicationSettingsViewModel : ViewModelBase
     {

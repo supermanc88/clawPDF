@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     public static class EnumToStringValueHelper
     {

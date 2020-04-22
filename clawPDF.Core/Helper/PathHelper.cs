@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace clawSoft.clawPDF.Core.Helper
+namespace infosecSoft.infosecPDF.Core.Helper
 {
     public class PathHelper
     {

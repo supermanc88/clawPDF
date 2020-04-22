@@ -1,12 +1,12 @@
 ﻿using System.Linq;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Utilities;
 using NLog;
 using SystemInterface.IO;
 using SystemWrapper.IO;
+using infosecSoft.infosecPDF.Helper;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class AppStartFactory
     {

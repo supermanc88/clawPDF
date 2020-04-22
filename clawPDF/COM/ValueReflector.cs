@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Reflection;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     internal class ValueReflector
     {

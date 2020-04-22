@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Ghostscript;
-using clawSoft.clawPDF.Core.Ghostscript.OutputDevices;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.PDFProcessing;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.PDFProcessing;
 using SystemInterface.IO;
 using SystemWrapper.IO;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Ghostscript;
+using infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     /// <summary>
     ///     The GhostscriptJob class processes a Job with Ghostscript.

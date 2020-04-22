@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
 using iTextSharp.text.pdf;
 using NLog;
 
-namespace clawSoft.clawPDF.PDFProcessing
+namespace infosecSoft.infosecPDF.PDFProcessing
 {
     public static class PDFProcessor
     {

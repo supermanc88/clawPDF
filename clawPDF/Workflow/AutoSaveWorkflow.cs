@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
-using clawSoft.clawPDF.Core.Actions;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Utilities;
 
-namespace clawSoft.clawPDF.Workflow
+namespace infosecSoft.infosecPDF.Workflow
 {
     /// <summary>
     ///     The autosave workflow implements the workflow steps with auto save. Most interaction requests are answered with

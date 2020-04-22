@@ -1,10 +1,10 @@
 ﻿using System.Text;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
 using iTextSharp.text.pdf;
 using NLog;
 
-namespace clawSoft.clawPDF.PDFProcessing
+namespace infosecSoft.infosecPDF.PDFProcessing
 {
     public static class Encrypter
     {

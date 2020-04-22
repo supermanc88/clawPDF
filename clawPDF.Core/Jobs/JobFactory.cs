@@ -1,6 +1,6 @@
-﻿using clawSoft.clawPDF.Core.Settings;
+﻿using infosecSoft.infosecPDF.Core.Settings;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     public static class JobFactory
     {

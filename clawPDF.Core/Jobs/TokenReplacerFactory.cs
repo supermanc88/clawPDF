@@ -1,13 +1,13 @@
 ﻿using System.Linq;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.IO;
-using clawSoft.clawPDF.Utilities.Tokens;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Utilities.Tokens;
 using SystemInterface;
 using SystemInterface.IO;
 using SystemWrapper;
 using SystemWrapper.IO;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     public class TokenReplacerFactory
     {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Threading;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Core.Xps;
-using clawSoft.clawPDF.Core.Xps.OutputFileMover;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Xps;
+using infosecSoft.infosecPDF.Core.Xps.OutputFileMover;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     internal class XpsJob : AbstractJob
     {

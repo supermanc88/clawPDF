@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Utilities;
 using pdfforge.DataStorage;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     /// <summary>
     ///     TranslationUtil provides functionality that is used in conjunction with the DynamicTranslator classes.

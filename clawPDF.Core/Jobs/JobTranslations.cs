@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Core.Jobs
+﻿namespace infosecSoft.infosecPDF.Core.Jobs
 {
     public class JobTranslations
     {

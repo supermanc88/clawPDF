@@ -1,7 +1,7 @@
 ﻿using System;
 using pdfforge.DataStorage;
 
-namespace clawSoft.clawPDF.Helper
+namespace infosecSoft.infosecPDF.Helper
 {
     internal class DataUpgrader
     {

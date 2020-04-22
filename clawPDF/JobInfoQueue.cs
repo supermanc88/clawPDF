@@ -5,18 +5,18 @@ using System.IO;
 using System.Linq;
 using System.Resources;
 using System.Text;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Printer;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Properties;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities;
-using clawSoft.clawPDF.Utilities.Communication;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Printer;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Properties;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Utilities.IO;
 using NLog;
 
-namespace clawSoft.clawPDF
+namespace infosecSoft.infosecPDF
 {
     /// <summary>
     ///     The JobInfoQueue manages the pending JobInfos that are waiting to be converted

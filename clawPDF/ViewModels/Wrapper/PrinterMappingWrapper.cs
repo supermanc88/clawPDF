@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Properties;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Properties;
 
-namespace clawSoft.clawPDF.ViewModels.Wrapper
+namespace infosecSoft.infosecPDF.ViewModels.Wrapper
 {
     internal class PrinterMappingWrapper : INotifyPropertyChanged
     {

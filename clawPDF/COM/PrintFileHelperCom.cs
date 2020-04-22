@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.PrintFile;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.PrintFile;
 
-namespace clawSoft.clawPDF.COM
+namespace infosecSoft.infosecPDF.COM
 {
     internal class PrintFileHelperCom : PrintFileHelperBase
     {

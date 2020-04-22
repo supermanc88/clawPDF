@@ -1,9 +1,9 @@
 ﻿using System;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Utilities.IO;
 using SystemInterface.Microsoft.Win32;
 using SystemWrapper.Microsoft.Win32;
 
-namespace clawSoft.clawPDF.Core.Printer
+namespace infosecSoft.infosecPDF.Core.Printer
 {
     public interface IPrinterPortReader
     {

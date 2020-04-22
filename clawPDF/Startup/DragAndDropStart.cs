@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using clawSoft.clawPDF.Helper;
+using infosecSoft.infosecPDF.Helper;
 using NLog;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class DragAndDropStart : MaybePipedStart
     {

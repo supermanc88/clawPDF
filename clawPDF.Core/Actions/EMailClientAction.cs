@@ -1,9 +1,9 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Mail;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Mail;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     public class EMailClientAction : IAction
     {

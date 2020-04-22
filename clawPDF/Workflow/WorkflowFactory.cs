@@ -1,11 +1,11 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 using NLog;
 
-namespace clawSoft.clawPDF.Workflow
+namespace infosecSoft.infosecPDF.Workflow
 {
     internal static class WorkflowFactory
     {

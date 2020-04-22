@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace clawSoft.clawPDF.SetupHelper.Driver
+namespace infosecSoft.infosecPDF.SetupHelper.Driver
 {
     #region Native Method Structures
 

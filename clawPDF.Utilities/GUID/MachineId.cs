@@ -1,9 +1,9 @@
 ﻿using System;
-using clawSoft.clawPDF.Utilities.WindowsApi;
 using SystemInterface.Microsoft.Win32;
 using SystemWrapper.Microsoft.Win32;
+using infosecSoft.infosecPDF.Utilities.WindowsApi;
 
-namespace clawSoft.clawPDF.Utilities.GUID
+namespace infosecSoft.infosecPDF.Utilities.GUID
 {
     public class MachineId
     {

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Utilities;
 using SystemInterface.IO;
+using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF.Core.Ghostscript.OutputDevices
+namespace infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices
 {
     /// <summary>
     ///     Extends OutputDevice to create PNG files

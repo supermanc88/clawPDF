@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Utilities.IO;
 using NLog;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     public static class PsFileHelper
     {

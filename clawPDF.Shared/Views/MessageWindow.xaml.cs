@@ -5,11 +5,11 @@ using System.Media;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.ViewModels;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.ViewModels;
 using Image = System.Windows.Controls.Image;
 
-namespace clawSoft.clawPDF.Shared.Views
+namespace infosecSoft.infosecPDF.Shared.Views
 {
     public partial class MessageWindow : Window
     {

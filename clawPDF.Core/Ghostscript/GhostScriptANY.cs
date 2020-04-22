@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace clawSoft.clawPDF.Core.Ghostscript
+namespace infosecSoft.infosecPDF.Core.Ghostscript
 {
     internal class GhostScriptANY
     {

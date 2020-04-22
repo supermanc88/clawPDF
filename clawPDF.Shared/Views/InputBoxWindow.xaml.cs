@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 
-namespace clawSoft.clawPDF.Shared.Views
+namespace infosecSoft.infosecPDF.Shared.Views
 {
     public partial class InputBoxWindow : Window
     {

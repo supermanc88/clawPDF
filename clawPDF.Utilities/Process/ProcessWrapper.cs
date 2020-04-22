@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace clawSoft.clawPDF.Utilities.Process
+namespace infosecSoft.infosecPDF.Utilities.Process
 {
     public class ProcessWrapper
     {

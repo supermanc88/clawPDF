@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Windows.Forms;
 
-namespace clawPDF.Bridge
+namespace infosecPDF.Bridge
 {
     internal class Program
     {

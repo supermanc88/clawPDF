@@ -1,6 +1,6 @@
-﻿using clawSoft.clawPDF.Shared.Views;
+﻿using infosecSoft.infosecPDF.Shared.Views;
 
-namespace clawSoft.clawPDF.Shared.ViewModels
+namespace infosecSoft.infosecPDF.Shared.ViewModels
 {
     public class MessageWindowViewModel : ViewModelBase
     {

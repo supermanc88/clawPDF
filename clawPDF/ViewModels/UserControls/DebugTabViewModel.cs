@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.Helper;
 using pdfforge.DynamicTranslator;
 
-namespace clawSoft.clawPDF.ViewModels.UserControls
+namespace infosecSoft.infosecPDF.ViewModels.UserControls
 {
     internal class DebugTabViewModel : ApplicationSettingsViewModel
     {

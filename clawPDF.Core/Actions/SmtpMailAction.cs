@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Net;
 using System.Net.Mail;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
 using NLog;
 
-namespace clawSoft.clawPDF.Core.Actions
+namespace infosecSoft.infosecPDF.Core.Actions
 {
     public class SmtpMailAction : IAction, ICheckable
     {

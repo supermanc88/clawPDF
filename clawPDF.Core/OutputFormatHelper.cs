@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using clawSoft.clawPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
 
-namespace clawSoft.clawPDF.Core
+namespace infosecSoft.infosecPDF.Core
 {
     public class OutputFormatHelper
     {

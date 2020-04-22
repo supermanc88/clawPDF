@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Windows.Data;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Helper;
 
-namespace clawSoft.clawPDF.Converter
+namespace infosecSoft.infosecPDF.Converter
 {
     [ValueConversion(typeof(string), typeof(string))]
     internal class GuidToProfileConverter : IValueConverter

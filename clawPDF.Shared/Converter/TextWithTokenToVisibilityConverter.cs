@@ -2,9 +2,9 @@
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
-using clawSoft.clawPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper;
 
-namespace clawSoft.clawPDF.Shared.Converter
+namespace infosecSoft.infosecPDF.Shared.Converter
 {
     [ValueConversion(typeof(string), typeof(Visibility))]
     public sealed class TextWithTokenToVisibilityConverter : IValueConverter

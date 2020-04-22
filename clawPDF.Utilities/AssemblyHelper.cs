@@ -2,9 +2,9 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Utilities.IO;
 
-namespace clawSoft.clawPDF.Utilities
+namespace infosecSoft.infosecPDF.Utilities
 {
     public interface IAssemblyHelper
     {

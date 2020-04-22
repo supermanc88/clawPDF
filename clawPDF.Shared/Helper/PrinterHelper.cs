@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Drawing.Printing;
 using System.Runtime.InteropServices;
 
-namespace clawSoft.clawPDF.Shared.Helper
+namespace infosecSoft.infosecPDF.Shared.Helper
 {
     public class PrinterHelper
     {

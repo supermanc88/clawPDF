@@ -6,7 +6,7 @@ using System.Windows.Data;
 using System.Windows.Interop;
 using System.Windows.Media.Imaging;
 
-namespace clawSoft.clawPDF.Shared.Converter
+namespace infosecSoft.infosecPDF.Shared.Converter
 {
     public class BitmapToBitmapsourceConverter : IValueConverter
     {

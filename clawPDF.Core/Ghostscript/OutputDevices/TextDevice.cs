@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Utilities;
+using infosecSoft.infosecPDF.Utilities;
 using SystemInterface.IO;
+using infosecSoft.infosecPDF.Core.Jobs;
 
-namespace clawSoft.clawPDF.Core.Ghostscript.OutputDevices
+namespace infosecSoft.infosecPDF.Core.Ghostscript.OutputDevices
 {
     public class TextDevice : OutputDevice
     {

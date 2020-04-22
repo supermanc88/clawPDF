@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Windows;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Utilities.Communication;
-using clawSoft.clawPDF.Utilities.Threading;
-using clawSoft.clawPDF.Views;
+using infosecSoft.infosecPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Utilities.Threading;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Views;
 using NLog;
 
-namespace clawSoft.clawPDF.Threading
+namespace infosecSoft.infosecPDF.Threading
 {
     /// <summary>
     ///     The ThreadManager class handles and watches all applications threads. If all registered threads are finished, the

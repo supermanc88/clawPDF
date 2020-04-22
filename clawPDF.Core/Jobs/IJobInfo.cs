@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace clawSoft.clawPDF.Core.Jobs
+namespace infosecSoft.infosecPDF.Core.Jobs
 {
     public interface IJobInfo
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace clawSoft.clawPDF.Core.Settings.Enums
+namespace infosecSoft.infosecPDF.Core.Settings.Enums
 {
     public enum OutputFormat
     {

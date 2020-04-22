@@ -1,12 +1,12 @@
 ﻿using System;
 using System.IO;
-using clawSoft.clawPDF.Core.Jobs;
-using clawSoft.clawPDF.Core.Settings;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Utilities.IO;
+using infosecSoft.infosecPDF.Core.Jobs;
+using infosecSoft.infosecPDF.Core.Settings;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Utilities.IO;
 using NLog;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal class NewPrintJobStart : MaybePipedStart
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{884D14EB-6D78-41D8-B022-968209DD6CE4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>clawSoft.clawPDF.Mail</RootNamespace>
-    <AssemblyName>clawPDF.Mail</AssemblyName>
+    <RootNamespace>infosecSoft.infosecPDF.Mail</RootNamespace>
+    <AssemblyName>infosecPDF.Mail</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>

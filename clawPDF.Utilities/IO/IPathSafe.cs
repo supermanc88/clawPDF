@@ -1,4 +1,4 @@
-namespace clawSoft.clawPDF.Utilities.IO
+namespace infosecSoft.infosecPDF.Utilities.IO
 {
     public interface IPathSafe
     {

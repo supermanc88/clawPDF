@@ -1,4 +1,4 @@
-namespace clawSoft.clawPDF.Mail
+namespace infosecSoft.infosecPDF.Mail
 {
     public class Attachment
     {

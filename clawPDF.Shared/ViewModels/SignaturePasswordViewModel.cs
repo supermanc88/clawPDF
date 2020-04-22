@@ -1,7 +1,7 @@
 ﻿using System;
-using clawSoft.clawPDF.Core.Actions;
+using infosecSoft.infosecPDF.Core.Actions;
 
-namespace clawSoft.clawPDF.Shared.ViewModels
+namespace infosecSoft.infosecPDF.Shared.ViewModels
 {
     public class SignaturePasswordViewModel : ViewModelBase
     {

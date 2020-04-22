@@ -4,20 +4,20 @@ using System.ServiceProcess;
 using System.Threading;
 using System.Windows;
 using System.Windows.Threading;
-using clawSoft.clawPDF.Assistants;
-using clawSoft.clawPDF.Core.Ghostscript;
-using clawSoft.clawPDF.Core.Settings.Enums;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Shared.Helper;
-using clawSoft.clawPDF.Shared.Helper.Logging;
-using clawSoft.clawPDF.Shared.Views;
-using clawSoft.clawPDF.Startup;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Core.Ghostscript;
+using infosecSoft.infosecPDF.Core.Settings.Enums;
+using infosecSoft.infosecPDF.Shared.Helper;
+using infosecSoft.infosecPDF.Shared.Helper.Logging;
+using infosecSoft.infosecPDF.Shared.Views;
+using infosecSoft.infosecPDF.Assistants;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Startup;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Utilities.Communication;
 using NLog;
 using Application = System.Windows.Forms.Application;
 
-namespace clawSoft.clawPDF
+namespace infosecSoft.infosecPDF
 {
     public partial class App
     {

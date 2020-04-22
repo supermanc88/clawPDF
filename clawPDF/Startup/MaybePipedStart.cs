@@ -1,10 +1,10 @@
 ﻿using System;
-using clawSoft.clawPDF.Helper;
-using clawSoft.clawPDF.Threading;
-using clawSoft.clawPDF.Utilities.Communication;
+using infosecSoft.infosecPDF.Helper;
+using infosecSoft.infosecPDF.Threading;
+using infosecSoft.infosecPDF.Utilities.Communication;
 using NLog;
 
-namespace clawSoft.clawPDF.Startup
+namespace infosecSoft.infosecPDF.Startup
 {
     internal abstract class MaybePipedStart : IAppStart
     {

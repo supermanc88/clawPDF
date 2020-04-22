@@ -9,7 +9,7 @@ using System.Security.Permissions;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace clawSoft.clawPDF.Utilities
+namespace infosecSoft.infosecPDF.Utilities
 {
     public class FileUtil
     {

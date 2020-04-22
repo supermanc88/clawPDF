@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Utilities.Tokens
+﻿namespace infosecSoft.infosecPDF.Utilities.Tokens
 {
     /// <summary>
     ///     Class for Token with Name and Value, each of Type string.

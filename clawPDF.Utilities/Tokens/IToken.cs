@@ -1,4 +1,4 @@
-﻿namespace clawSoft.clawPDF.Utilities.Tokens
+﻿namespace infosecSoft.infosecPDF.Utilities.Tokens
 {
     /// <summary>
     ///     Interface description for methods of Token-classes
