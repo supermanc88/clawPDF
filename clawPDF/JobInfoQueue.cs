@@ -23,7 +23,7 @@ namespace clawSoft.clawPDF
     /// </summary>
     internal class JobInfoQueue : IJobInfoQueue, ITempFolderProvider
     {
-        private const string PrinterPortName = "CLAWMON:";
+        private const string PrinterPortName = "infosecmon:";
 
         private static JobInfoQueue _instance;
 
@@ -88,7 +88,7 @@ namespace clawSoft.clawPDF
         public bool IsEmpty => JobInfos.Count == 0;
 
         /// <summary>
-        ///     The folder in which the print jobs will be stored by the CLAWMON:
+        ///     The folder in which the print jobs will be stored by the infosecmon:
         /// </summary>
         public string SpoolFolder { get; }
 
@@ -228,7 +228,7 @@ namespace clawSoft.clawPDF
             var printerPort = portReader.ReadPrinterPort(PrinterPortName);
 
             if (printerPort == null)
-                return "xinanPDF";
+                return "infosecPDF";
 
             return printerPort.TempFolderName;
         }

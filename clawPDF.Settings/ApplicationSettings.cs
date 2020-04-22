@@ -50,7 +50,7 @@ namespace clawSoft.clawPDF.Core.Settings
             Language = "";
             LastUsedProfileGuid = "DefaultGuid";
             LoggingLevel = LoggingLevel.Error;
-            PrimaryPrinter = "xinanPDF";
+            PrimaryPrinter = "infosecPDF";
             UpdateInterval = UpdateInterval.Weekly;
         }
 
@@ -141,7 +141,7 @@ namespace clawSoft.clawPDF.Core.Settings
             }
             catch
             {
-                PrimaryPrinter = "xinanPDF";
+                PrimaryPrinter = "infosecPDF";
             }
 
             try

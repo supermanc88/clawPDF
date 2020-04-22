@@ -23,8 +23,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "stdafx.h"
 #include "defs.h"
 
-LPCWSTR szMonitorName = L"xinanmon";
-LPCWSTR szDescription = L"xinanmon printer port";
+LPCWSTR szMonitorName = L"infosecmon";
+LPCWSTR szDescription = L"infosecmon printer port";
 LPCWSTR szAppTitle = L"printer port monitor";
 LPCWSTR szTrue = L"true";
 LPCWSTR szFalse = L"false";

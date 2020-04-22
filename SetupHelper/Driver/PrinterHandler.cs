@@ -35,16 +35,16 @@ namespace clawSoft.clawPDF.SetupHelper.Driver
         #endregion Printer Driver Win32 API Constants
 
         private const string ENVIRONMENT = null;
-        private const string PRINTERNAME = "xinanPDF";
-        private const string DRIVERNAME = "xinanPDF Virtual Printer";
-        private const string HARDWAREID = "xinanPDF_Driver";
-        private const string PORTMONITOR = "XINANMON";
+        private const string PRINTERNAME = "infosecPDF";
+        private const string DRIVERNAME = "infosecPDF Virtual Printer";
+        private const string HARDWAREID = "infosecPDF_Driver";
+        private const string PORTMONITOR = "infosecmon";
         private const string MONITORDLL = "clawmon.dll";
         private const string MONITORUIDLL = "clawmonui.dll";
-        private const string PORTNAME = "XINANMON:";
+        private const string PORTNAME = "infosecmon:";
         private const string PRINTPROCESOR = "winprint";
 
-        private const string DRIVERMANUFACTURER = "Andrew Hess // clawSoft";
+        private const string DRIVERMANUFACTURER = "Andrew Hess // infosecSoft";
 
         private const string DRIVERFILE = "PSCRIPT5.DLL";
         private const string DRIVERUIFILE = "PS5UI.DLL";
@@ -977,7 +977,7 @@ namespace clawSoft.clawPDF.SetupHelper.Driver
                 portConfiguration.SetValue("User", "", RegistryValueKind.String);
                 portConfiguration.SetValue("WaitTermination", 0, RegistryValueKind.DWord);
                 portConfiguration.SetValue("WaitTimeout", 0, RegistryValueKind.DWord);
-                portConfiguration.SetValue("Description", "xinanPDF", RegistryValueKind.String);
+                portConfiguration.SetValue("Description", "infosecPDF", RegistryValueKind.String);
                 portConfiguration.SetValue("UserCommand", Path.GetDirectoryName(Application.ExecutablePath) + @"\clawPDF.Bridge.exe", RegistryValueKind.String);
                 portConfiguration.SetValue("Printer", PRINTERNAME, RegistryValueKind.String);
                 registryChangesMade = true;

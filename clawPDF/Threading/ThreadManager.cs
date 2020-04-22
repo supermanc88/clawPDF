@@ -19,7 +19,7 @@ namespace clawSoft.clawPDF.Threading
         /// <summary>
         ///     The name of the pipe
         /// </summary>
-        public const string PipeName = "xinanPDF";
+        public const string PipeName = "infosecPDF";
 
         private static readonly object LockObject = new object();
 

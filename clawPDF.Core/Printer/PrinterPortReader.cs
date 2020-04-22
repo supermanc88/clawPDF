@@ -12,8 +12,8 @@ namespace clawSoft.clawPDF.Core.Printer
 
     public class PrinterPortReader : IPrinterPortReader
     {
-        private const string DefaultTempFolderName = "xinanPDF";
-        private const string RegistryBaseKey = @"SYSTEM\CurrentControlSet\Control\Print\Monitors\CLAWMON\CLAWMON:\";
+        private const string DefaultTempFolderName = "infosecPDF";
+        private const string RegistryBaseKey = @"SYSTEM\CurrentControlSet\Control\Print\Monitors\infosecmon\infosecmon:\";
 
         private static readonly IPathSafe PathSafe = new PathWrapSafe();
         private readonly IRegistry _registry;
