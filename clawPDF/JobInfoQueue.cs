@@ -228,7 +228,7 @@ namespace clawSoft.clawPDF
             var printerPort = portReader.ReadPrinterPort(PrinterPortName);
 
             if (printerPort == null)
-                return "xinanPDF";
+                return "infosecPDF";
 
             return printerPort.TempFolderName;
         }

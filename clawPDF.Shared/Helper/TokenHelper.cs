@@ -43,7 +43,7 @@ namespace clawSoft.clawPDF.Shared.Helper
                         "OutputFilename3.jpg")
                 }));
             tr.AddToken(new StringToken("OutputFilePath", @"C:\Temp"));
-            tr.AddToken(new StringToken("PrinterName", "xinanPDF"));
+            tr.AddToken(new StringToken("PrinterName", "infosecPDF"));
             tr.AddToken(new NumberToken("SessionID", 0));
             tr.AddToken(new StringToken("Title",
                 TranslationHelper.Instance.TranslatorInstance.GetTranslation("TokenPlaceHolders", "TitleFromSettings",

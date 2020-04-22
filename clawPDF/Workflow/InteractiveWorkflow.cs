@@ -337,7 +337,7 @@ namespace clawSoft.clawPDF.Workflow
 
             var caption = _translator.GetTranslation("InteractiveWorkflow", "Error", "Error");
             var opener = _translator.GetFormattedTranslation("InteractiveWorkflow", "ErrorWhileConverting",
-                "clawPDF was not able to convert the document, because an error occured:\r\n{0}\r\n\r\nYou can find additional information in the log file.",
+                "infosecPDF was not able to convert the document, because an error occured:\r\n{0}\r\n\r\nYou can find additional information in the log file.",
                 errorText);
 
             MessageWindow.ShowTopMost(opener, caption, MessageWindowButtons.OK, MessageWindowIcon.Error);
@@ -380,7 +380,7 @@ namespace clawSoft.clawPDF.Workflow
 
         private void RetypeOutputFilename(object sender, QueryFilenameEventArgs e)
         {
-            var caption = "xinanPDF";
+            var caption = "infosecPDF";
             var message = e.Job.OutputFilenameTemplate + "\r\n";
             message += _translator.GetTranslation("InteractiveWorkflow", "RetypeFilenameMessage",
                 "The file could not be saved. Maybe the file is currently in use or you do not have the required permissions.\r\nPlease select another filename and try again.");

@@ -69,7 +69,7 @@ namespace clawSoft.clawPDF.Assistants
                     "SpoolFolderAccessDenied", "Access Denied");
                 message = TranslationHelper.Instance.TranslatorInstance.GetFormattedTranslation("Application",
                     "SpoolFolderUnableToRepair",
-                    "clawPDF was not able to repair your spool folder. Please contact your administrator or the support to assist you in changing the permissions of the path '{0}'.",
+                    "infosecPDF was not able to repair your spool folder. Please contact your administrator or the support to assist you in changing the permissions of the path '{0}'.",
                     tempFolder);
 
                 MessageWindow.ShowTopMost(message, title, MessageWindowButtons.OK, MessageWindowIcon.Exclamation);

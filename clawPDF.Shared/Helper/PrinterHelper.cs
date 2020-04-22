@@ -24,7 +24,7 @@ namespace clawSoft.clawPDF.Shared.Helper
 
             foreach (var printer in printerInfos)
                 //if (printer.pPortName.Equals("pdfcmon"))
-                if (printer.pDriverName.Equals("xinanPDF Virtual Printer", StringComparison.OrdinalIgnoreCase))
+                if (printer.pDriverName.Equals("infosecPDF Virtual Printer", StringComparison.OrdinalIgnoreCase))
                     printers.Add(printer.pPrinterName);
 
             printers.Sort();
@@ -84,7 +84,7 @@ namespace clawSoft.clawPDF.Shared.Helper
         /// </summary>
         public void PrintWindowsTestPage()
         {
-            PrintWindowsTestPage("xinanPDF");
+            PrintWindowsTestPage("infosecPDF");
         }
 
         /// <summary>
@@ -129,7 +129,7 @@ namespace clawSoft.clawPDF.Shared.Helper
                     clawPDFPrinter = printer;
 
                 if (!isDefaultPrinter)
-                    if (printer.Equals("xinanPDF", StringComparison.OrdinalIgnoreCase))
+                    if (printer.Equals("infosecPDF", StringComparison.OrdinalIgnoreCase))
                         clawPDFPrinter = printer;
 
                 if (printer.Equals(defaultPrinter, StringComparison.OrdinalIgnoreCase))

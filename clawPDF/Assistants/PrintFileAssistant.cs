@@ -29,7 +29,7 @@ namespace clawSoft.clawPDF.Assistants
 
         protected override void DirectoriesNotSupportedHint()
         {
-            const string caption = "xinanPDF";
+            const string caption = "infosecPDF";
             var message = _translationHelper.TranslatorInstance.GetTranslation("PrintFiles", "DirectoriesNotSupported",
                 "You have tried to convert directories here. This is currently not supported.");
             MessageWindow.ShowTopMost(message, caption, MessageWindowButtons.OK, MessageWindowIcon.Warning);
@@ -40,7 +40,7 @@ namespace clawSoft.clawPDF.Assistants
             var fileList =
                 new List<string>(unprintable.Select(p => Path.GetFileName(p.Filename))
                     .Take(Math.Min(3, unprintable.Count)));
-            const string caption = "xinanPDF";
+            const string caption = "infosecPDF";
             var message =
                 _translationHelper.TranslatorInstance.GetTranslation("PrintFiles", "NotPrintableFiles",
                     "The following files can't be converted:") +
@@ -61,7 +61,7 @@ namespace clawSoft.clawPDF.Assistants
             var message =
                 _translationHelper.TranslatorInstance.GetTranslation("PrintFileHelper", "AskSwitchDefaultPrinter",
                     "clawPDF needs to temporarily change the default printer to be able to convert the file. Do you want to proceed?");
-            const string caption = "xinanPDF";
+            const string caption = "infosecPDF";
             return MessageWindowResponse.Yes ==
                    MessageWindow.ShowTopMost(message, caption, MessageWindowButtons.YesNo, MessageWindowIcon.Question);
         }

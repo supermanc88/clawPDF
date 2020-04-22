@@ -27,7 +27,7 @@ namespace clawSoft.clawPDF.Assistants
             var title = _translator.GetTranslation("Application", "RepairPrinterNoPrintersInstalled",
                 "No printers installed");
             var message = _translator.GetFormattedTranslation("Application", "RepairPrinterAskUser",
-                "You do not have any clawPDF printers installed. Most likely there was a problem during the setup or the installation has been altered afterwards.\r\nDo you want to fix this by reinstalling the clawPDF printers?\r\n\r\nNote: You might be asked twice to grant admin privileges while fixing the problem.");
+                "You do not have any infosecPDF printers installed. Most likely there was a problem during the setup or the installation has been altered afterwards.\r\nDo you want to fix this by reinstalling the clawPDF printers?\r\n\r\nNote: You might be asked twice to grant admin privileges while fixing the problem.");
 
             Logger.Debug("Asking to start repair..");
 
@@ -42,7 +42,7 @@ namespace clawSoft.clawPDF.Assistants
                     Logger.Error("SetupHelper.exe does not exist!");
                     title = _translator.GetTranslation("Application", "Error", "Error");
                     message = _translator.GetFormattedTranslation("Application", "SetupFileMissing",
-                        "An important clawPDF file is missing ('{0}'). Please reinstall clawPDF!",
+                        "An important infosecPDF file is missing ('{0}'). Please reinstall infosecPDF!",
                         _pathSafe.GetFileName(printerHelperPath));
 
                     MessageWindow.ShowTopMost(message, title, MessageWindowButtons.OK, MessageWindowIcon.Error);
@@ -71,7 +71,7 @@ namespace clawSoft.clawPDF.Assistants
                 Logger.Info("The printer could not be repaired.");
                 title = _translator.GetTranslation("Application", "Error", "Error");
                 message = _translator.GetFormattedTranslation("Application", "RepairPrinterFailed",
-                    "clawPDF was not able to repair your printers. Please contact your administrator or the support to assist you in with this problem.");
+                    "infosecPDF was not able to repair your printers. Please contact your administrator or the support to assist you in with this problem.");
 
                 MessageWindow.ShowTopMost(message, title, MessageWindowButtons.OK, MessageWindowIcon.Exclamation);
                 return false;
@@ -87,7 +87,7 @@ namespace clawSoft.clawPDF.Assistants
             var printers = printerNames.ToList();
 
             if (!printers.Any())
-                printers.Add("xinanPDF");
+                printers.Add("infosecPDF");
 
             return string.Join(" ", printers.Select(printerName => "\"" + printerName + "\""));
         }

@@ -114,7 +114,7 @@ namespace clawSoft.clawPDF.ViewModels.UserControls
                 {
                     var printerHelper = new PrinterHelper();
                     ApplicationSettings.PrimaryPrinter =
-                        printerHelper.GetApplicableclawPDFPrinter("xinanPDF", "xinanPDF");
+                        printerHelper.GetApplicableclawPDFPrinter("infosecPDF", "infosecPDF");
                 }
 
                 return ApplicationSettings.PrimaryPrinter;

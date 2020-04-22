@@ -41,7 +41,7 @@ namespace clawSoft.clawPDF
 
             try
             {
-                LoggingHelper.InitFileLogger("xinanPDF", LoggingLevel.Error);
+                LoggingHelper.InitFileLogger("infosecPDF", LoggingLevel.Error);
 
                 RunApplication(e.Args);
             }
@@ -52,7 +52,7 @@ namespace clawSoft.clawPDF
             finally
             {
                 globalMutex.Release();
-                Logger.Debug("Ending xinanPDF");
+                Logger.Debug("Ending infosecPDF");
                 Shutdown();
             }
         }
@@ -100,7 +100,7 @@ namespace clawSoft.clawPDF
                 Logger.Error("Spooler service is not running. Exiting...");
                 var message =
                     "The Windows spooler service is not running. Please start the spooler first.\r\n\r\nProgram exiting now.";
-                const string caption = @"xinanPDF";
+                const string caption = @"infosecPDF";
                 MessageBox.Show(message, caption, MessageBoxButton.OK, MessageBoxImage.Error);
                 Environment.Exit(1);
             }
@@ -123,7 +123,7 @@ namespace clawSoft.clawPDF
         {
             if (TranslationHelper.Instance.TranslationPath == null)
             {
-                MessageBox.Show(@"Could not find any translation. Please reinstall clawPDF.",
+                MessageBox.Show(@"Could not find any translation. Please reinstall infosecPDF.",
                     @"Translations missing");
                 Shutdown(1);
             }
@@ -131,7 +131,7 @@ namespace clawSoft.clawPDF
             // Verfiy that Ghostscript is installed and exit if not
             //EnsureGhoscriptIsInstalled();
 
-            // Verify that clawPDF printers are installed
+            // Verify that infosecPDF printers are installed
             EnsurePrinterIsInstalled();
         }
 
@@ -143,7 +143,7 @@ namespace clawSoft.clawPDF
                 var message = TranslationHelper.Instance.TranslatorInstance.GetTranslation("ConversionWorkflow",
                     "NoSupportedGSFound",
                     "Can't find a supported Ghostscript installation.\r\n\r\nProgram exiting now.");
-                const string caption = @"xinanPDF";
+                const string caption = @"infosecPDF";
                 MessageWindow.ShowTopMost(message, caption, MessageWindowButtons.OK, MessageWindowIcon.Error);
                 Environment.Exit(1);
             }

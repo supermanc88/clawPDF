@@ -73,7 +73,7 @@
                defaultvalue="LoggingLevel.Error">
           <comment />
         </value>
-        <value name="PrimaryPrinter" type="value" datatype="String" enumname="" defaultvalue="xinanPDF">
+        <value name="PrimaryPrinter" type="value" datatype="String" enumname="" defaultvalue="infosecPDF">
           <comment />
         </value>
         <value name="UpdateInterval" type="value" datatype="Enum" enumname="UpdateInterval"
@@ -405,7 +405,7 @@
           <value name="Enabled" type="value" datatype="Bool" enumname="" defaultvalue="false">
             <comment>If enabled, the document will be printed to a physical printer</comment>
           </value>
-          <value name="PrinterName" type="value" datatype="String" enumname="" defaultvalue="xinanPDF">
+          <value name="PrinterName" type="value" datatype="String" enumname="" defaultvalue="infosecPDF">
             <comment>Name of the printer that will be used, if SelectedPrinter is set.</comment>
           </value>
           <value name="SelectPrinter" type="value" datatype="Enum" enumname="SelectPrinter"

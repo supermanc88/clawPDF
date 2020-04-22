@@ -125,7 +125,7 @@ namespace clawSoft.clawPDF.Shared.Views.UserControls
                     var message = TranslationHelper.TranslatorInstance.GetTranslation("ProfileSettingsWindow",
                         "FontFileNotSupported",
                         "The selected font is not supported. Please select a different font.");
-                    MessageWindow.ShowTopMost(message, "xinanPDF", MessageWindowButtons.OK,
+                    MessageWindow.ShowTopMost(message, "infosecPDF", MessageWindowButtons.OK,
                         MessageWindowIcon.Warning);
                     return;
                 }
