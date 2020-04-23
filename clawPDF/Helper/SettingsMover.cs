@@ -14,8 +14,8 @@ namespace infosecSoft.infosecPDF.Helper
     /// </summary>
     public class SettingsMover
     {
-        private const string OldRegistryPath = @"Software\clawPDF.Net";
-        private const string NewRegistryPath = @"Software\clawSoft\clawPDF";
+        private const string OldRegistryPath = @"Software\infosecPDF.Net";
+        private const string NewRegistryPath = @"Software\infosecSoft\infosecPDF";
         private readonly RegistryUtility _registryUtility;
         private readonly IRegistry _registryWrap;
 

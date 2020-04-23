@@ -75,7 +75,7 @@ namespace infosecSoft.infosecPDF.SetupHelper.Driver
                     clawmonpath = Path.GetDirectoryName(Application.ExecutablePath) + @"\clawmon\x86\";
                 }
 
-                if (installer.InstallclawPDFPrinter(clawmonpath, "clawPDF.exe"))
+                if (installer.InstallclawPDFPrinter(clawmonpath, "infosecPDF.exe"))
                     printerInstalled = true;
                 else
                     printerInstalled = false;

@@ -54,7 +54,7 @@ namespace infosecSoft.infosecPDF.Views
         {
             TranslationHelper.Instance.TranslatorInstance.Translate(this);
 
-            ApplicationNameText.Text = "clawPDF " + VersionHelper.Instance.FormatWithTwoDigits();
+            ApplicationNameText.Text = "infosecPDF " + VersionHelper.Instance.FormatWithTwoDigits();
 
             var welcomeSettingsHelper = new WelcomeSettingsHelper();
             if (welcomeSettingsHelper.IsFirstRun())

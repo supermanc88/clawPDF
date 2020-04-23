@@ -24,7 +24,7 @@ namespace infosecPDF.Bridge
         {
             INIFile iniFile = new INIFile(infFile);
             string username = iniFile.Read("0", "Username");
-            ProcessExtensions.StartProcessAsUser(username, Path.GetDirectoryName(Application.ExecutablePath) + @"\" + "clawPDF.exe", Path.GetDirectoryName(Application.ExecutablePath) + @"\" + "clawPDF.exe" + " /INFODATAFILE=" + infFile, Path.GetDirectoryName(Application.ExecutablePath), true);
+            ProcessExtensions.StartProcessAsUser(username, Path.GetDirectoryName(Application.ExecutablePath) + @"\" + "infosecPDF.exe", Path.GetDirectoryName(Application.ExecutablePath) + @"\" + "infosecPDF.exe" + " /INFODATAFILE=" + infFile, Path.GetDirectoryName(Application.ExecutablePath), true);
         }
     }
 }

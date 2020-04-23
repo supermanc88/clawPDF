@@ -160,22 +160,22 @@ namespace infosecSoft.infosecPDF.SetupHelper
 
         private static void AddExplorerIntegration(bool wow6432)
         {
-            CallRegAsmForShell(wow6432, "clawPDFShell.dll", "/codebase");
+            CallRegAsmForShell(wow6432, "infosecPDFShell.dll", "/codebase");
         }
 
         private static void RemoveExplorerIntegration(bool wow6432)
         {
-            CallRegAsmForShell(wow6432, "clawPDFShell.dll", "/unregister");
+            CallRegAsmForShell(wow6432, "infosecPDFShell.dll", "/unregister");
         }
 
         private static void RegisterComInterface(bool wow6432)
         {
-            CallRegAsmForShell(wow6432, "clawPDF.exe", "/codebase /tlb");
+            CallRegAsmForShell(wow6432, "infosecPDF.exe", "/codebase /tlb");
         }
 
         private static void UnregisterComInterface(bool wow6432)
         {
-            CallRegAsmForShell(wow6432, "clawPDF.exe", "/unregister");
+            CallRegAsmForShell(wow6432, "infosecPDF.exe", "/unregister");
         }
 
         private static void CallRegAsmForShell(bool wow6432, string fileName, string parameters)

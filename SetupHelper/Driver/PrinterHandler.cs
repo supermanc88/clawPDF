@@ -978,7 +978,7 @@ namespace infosecSoft.infosecPDF.SetupHelper.Driver
                 portConfiguration.SetValue("WaitTermination", 0, RegistryValueKind.DWord);
                 portConfiguration.SetValue("WaitTimeout", 0, RegistryValueKind.DWord);
                 portConfiguration.SetValue("Description", "infosecPDF", RegistryValueKind.String);
-                portConfiguration.SetValue("UserCommand", Path.GetDirectoryName(Application.ExecutablePath) + @"\clawPDF.Bridge.exe", RegistryValueKind.String);
+                portConfiguration.SetValue("UserCommand", Path.GetDirectoryName(Application.ExecutablePath) + @"\infosecPDF.Bridge.exe", RegistryValueKind.String);
                 portConfiguration.SetValue("Printer", PRINTERNAME, RegistryValueKind.String);
                 registryChangesMade = true;
             }
